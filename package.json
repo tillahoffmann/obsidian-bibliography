@@ -1,6 +1,6 @@
 {
-  "name": "obsidian-sample-plugin",
-  "version": "0.12.0",
+  "name": "obsidian-bibliography-plugin",
+  "version": "0.1.0",
   "description": "This is a sample plugin for Obsidian (https://obsidian.md)",
   "main": "main.js",
   "scripts": {
@@ -19,5 +19,8 @@
     "rollup": "^2.32.1",
     "tslib": "^2.2.0",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "citation-js": "^0.5.1"
   }
 }
